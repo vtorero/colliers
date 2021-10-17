@@ -1,0 +1,42 @@
+/*Fuentes*/
+@font-face{
+    font-family: "OpenSans";
+    src:url(../elementos/Fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-weight: normal;
+}
+
+.parrafo{
+    font-family: "OpenSans";
+}
+.bold{
+    color:#25408f;
+    font-weight: bolder;
+}
+.cabecera{
+    background-image: url(../elementos/barra-dsk.png);
+    height: 115px;
+    margin-top: 15px;
+}
+.me-interesa{
+    font-size: 35px;
+    color: white;
+     width: 230px;
+    margin: 0 233px;
+    line-height: 44px;
+}
+
+.fondo{
+    background-image: url("../elementos/fondo-1417x992.jpg");
+}
+@media screen and (max-width:600px) {
+.cabecera{
+    background-image: url(../elementos/barra-mbl.png);
+    height: 34px;
+    margin-top: 15px;
+}
+
+    .me-interesa{
+        font-size: 21px;
+        margin: -8px 88px;
+    }
+}
